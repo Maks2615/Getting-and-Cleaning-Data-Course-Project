@@ -1,0 +1,103 @@
+---
+title: "CodeBook"
+---
+
+## This code book summarizes the resulting data fields in 'X_tidy1.txt' and in 'X_tidy2.txt'
+
+### Identifiers
++ subject - The ID of the test subject
++ activity - The type of activity performed when the corresponding measurements were taken
++ Variable_name - we will describe below
++ Values - received values
++ Mean - only variables with 'mean' in the names
++ Std - only variables with 'std' in the names
+
+### Measurements
+
++ tBodyAcc-mean()-X
++ tBodyAcc-mean()-Y
++ tBodyAcc-mean()-Z
++ tBodyAcc-std()-X
++ tBodyAcc-std()-Y
++ tBodyAcc-std()-Z
++ tGravityAcc-mean()-X
++ tGravityAcc-mean()-Y
++ tGravityAcc-mean()-Z
++ tGravityAcc-std()-X
++ tGravityAcc-std()-Y
++ tGravityAcc-std()-Z
++ tBodyAccJerk-mean()-X
++ tBodyAccJerk-mean()-Y
++ tBodyAccJerk-mean()-Z
++ tBodyAccJerk-s+ td()-X
++ tBodyAccJerk-s+ td()-Y
++ tBodyAccJerk-s+ td()-Z
++ tBodyGyro-mean()-X
++ tBodyGyro-mean()-Y
++ tBodyGyro-mean()-Z
++ tBodyGyro-s+ td()-X
++ tBodyGyro-s+ td()-Y
++ tBodyGyro-s+ td()-Z
++ tBodyGyroJerk-mean()-X
++ tBodyGyroJerk-mean()-Y
++ tBodyGyroJerk-mean()-Z
++ tBodyGyroJerk-s+ td()-X
++ tBodyGyroJerk-s+ td()-Y
++ tBodyGyroJerk-s+ td()-Z
++ tBodyAccMag-mean()
++ tBodyAccMag-s+ td()
++ tGravi+ tyAccMag-mean()
++ tGravi+ tyAccMag-s+ td()
++ tBodyAccJerkMag-mean()
++ tBodyAccJerkMag-s+ td()
++ tBodyGyroMag-mean()
++ tBodyGyroMag-s+ td()
++ tBodyGyroJerkMag-mean()
++ tBodyGyroJerkMag-s+ td()
++ fBodyAcc-mean()-X
++ fBodyAcc-mean()-Y
++ fBodyAcc-mean()-Z
++ fBodyAcc-s+ td()-X
++ fBodyAcc-s+ td()-Y
++ fBodyAcc-s+ td()-Z
++ fBodyAcc-mean+ freq()-X
++ fBodyAcc-mean+ freq()-Y
++ fBodyAcc-mean+ freq()-Z
++ fBodyAccJerk-mean()-X
++ fBodyAccJerk-mean()-Y
++ fBodyAccJerk-mean()-Z
++ fBodyAccJerk-s+ td()-X
++ fBodyAccJerk-s+ td()-Y
++ fBodyAccJerk-s+ td()-Z
++ fBodyAccJerk-mean+ freq()-X
++ fBodyAccJerk-mean+ freq()-Y
++ fBodyAccJerk-mean+ freq()-Z
++ fBodyGyro-mean()-X
++ fBodyGyro-mean()-Y
++ fBodyGyro-mean()-Z
++ fBodyGyro-s+ td()-X
++ fBodyGyro-s+ td()-Y
++ fBodyGyro-s+ td()-Z
++ fBodyGyro-mean+ freq()-X
++ fBodyGyro-mean+ freq()-Y
++ fBodyGyro-mean+ freq()-Z
++ fBodyAccMag-mean()
++ fBodyAccMag-s+ td()
++ fBodyAccMag-mean+ freq()
++ fBodyBodyAccJerkMag-mean()
++ fBodyBodyAccJerkMag-s+ td()
++ fBodyBodyAccJerkMag-mean+ freq()
++ fBodyBodyGyroMag-mean()
++ fBodyBodyGyroMag-s+ td()
++ fBodyBodyGyroMag-mean+ freq()
++ fBodyBodyGyroJerkMag-mean()
++ fBodyBodyGyroJerkMag-s+ td()
++ fBodyBodyGyroJerkMag-mean+ freq()
+
+### Activity Labels
++ WALKING (value 1): subject was walking during the test
++ WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
++ WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
++ SITTING (value 4): subject was sitting during the test
++ STANDING (value 5): subject was standing during the test
++ LAYING (value 6): subject was laying down during the test
