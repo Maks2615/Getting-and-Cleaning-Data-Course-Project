@@ -1,1 +1,14 @@
 # Getting-and-Cleaning-Data-Course-Project
+## ** This is the course project for the Getting and Cleaning Data Coursera course.**
+
+#### The R script, run_analysis.R, does the following: 
+
+1. Creates a folder in your working directory - 'Week4_Assignment'
+2. Download the zip archive and unzip it to created folder
+3. Loads the row data
+4. Merges the datasets (train and test) to one, keeping only those columns which reflect a mean or standard deviation
+5. Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair
+6. On the off-chance script also creates addition files (tidy data and requested data) - for the final choice of user.
+7. Four .txt files of output should appear in the created folder
+
+run_analisys.R consists comments before each line of code, so you can read additional details there
